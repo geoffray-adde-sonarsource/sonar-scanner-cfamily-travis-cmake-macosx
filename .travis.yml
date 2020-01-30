@@ -6,6 +6,7 @@ addons:
     organization: "geoffray-adde-sonarsource-github"
 
 script:
+  # Prepare the build system
   - mkdir build
   - cd build
   - cmake ..
